@@ -39,6 +39,7 @@ const ItemCollection = ({ text, img, images, ...otherProps }) => {
         </div>
       </button>
       <Modal
+        preventClose
         closeButton
         aria-labelledby="modal-title"
         open={visible}

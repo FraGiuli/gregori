@@ -32,6 +32,11 @@ export default function Home() {
       }
     }
   }, [dispatch, selectedLanguage]);
+  useEffect(() => {
+    document.body.onselectstart = function () {
+      return false;
+    };
+  });
 
   // useEffect(() => {
   //   const body = document.querySelector("body");

@@ -10,6 +10,7 @@ const SliderNormal = ({ images }) => {
             style={{ objectFit: "cover", width: "100%", maxHeight: "550px" }}
             alt="Slide Image"
             src={each}
+            draggable="false"
           />
         </div>
       ))}
